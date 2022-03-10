@@ -1,0 +1,17 @@
+#QintaarRafique
+#1762953
+
+a=int(input())
+b=int(input())
+con1=int(input())
+d=int(input())
+e=int(input())
+con2=int(input())
+count=0
+for x in range(-10,11,1):
+ for y in range(-10,11,1):
+  if(a*x + b*y == con1) and (d*x + e*y ==con2):
+   print(x,y)
+   count=1
+if(count==0):
+   print("No solution")
